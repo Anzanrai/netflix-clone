@@ -1,0 +1,39 @@
+.searchbar {
+  display: flex;
+  height: 60px;
+  flex: 1;
+  margin-top: 10px;
+  width: 100%;
+
+  input {
+    width: 60%;
+    line-height: 40px;
+    padding: 10px 20px;
+    border: none;
+    font-size: 20px;
+    &:focus {
+      outline: none;
+    }
+  }
+
+  button {
+    border: none;
+    width: 40%;
+    background: red;
+    color: white;
+    font-size: 20px;
+    vertical-align: middle;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    &:focus {
+      outline: none;
+    }
+
+    span {
+      margin-left: -50px;
+    }
+  }
+}

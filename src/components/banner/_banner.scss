@@ -1,0 +1,47 @@
+@import '../../base.scss';
+
+.banner {
+  &__divider {
+    height: 10px;
+    width: 100%;
+    background-color: $secondary-background;
+  }
+
+  &__followupdisplay {
+    background-color: $primary-background;
+    padding: 120px 20px;
+    color: white;
+    &__contentwrapper {
+      width: 80%;
+      display: flex;
+      align-items: center;
+      padding-left: 10%;
+      justify-content: space-between;
+
+      &__textwrapper {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+
+        .bold-content {
+          font-size: 50px;
+          color: white;
+          font-weight: bold;
+          text-align: center;
+          padding-bottom: 20px;
+        }
+
+        p {
+          color: white;
+          font-size: 25px;
+          text-align: center;
+        }
+      }
+
+      &__imagewrapper {
+        width: 40%;
+        color: white;
+      }
+    }
+  }
+}

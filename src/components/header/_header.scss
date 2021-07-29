@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  // width: 100%;
+  // background-color: yellow;
+  padding: 25px 57px;
+
+  &__logo {
+    width: 200px;
+    height: 80px;
+  }
+
+  &__image {
+    filter: brightness(100%);
+    width: 150px;
+  }
+
+  &__menu {
+    height: 80px;
+  }
+
+  &__button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+  }
+}
